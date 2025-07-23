@@ -1,0 +1,74 @@
+.top-infor {
+  display: flex;
+  column-gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+  height: 18%;
+}
+
+.top-content {
+  width: 25%;
+  height: fit-content;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Góc bo tròn */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Bóng đổ cho popup */
+}
+
+.top-content > p {
+  margin: 1px;
+}
+
+.container-icon,
+.container-icon > div {
+  display: flex;
+  justify-content: end;
+}
+
+.top-content > p:first-child {
+  color: #a3a3a3;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.top-content > p:nth-child(2) {
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.user-icon {
+  background-color: #f0a1a1;
+  padding: 0.4rem;
+  color: #f00;
+  border-radius: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.cart-icon {
+  background-color: #fff3bf;
+  padding: 0.4rem;
+  color: #fab005;
+  border-radius: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.dollar-icon {
+  background-color: #cce6cc;
+  padding: 0.4rem;
+  color: #008000;
+  border-radius: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.wallet-icon {
+  background-color: #e6cce6;
+  padding: 0.4rem;
+  color: #891389;
+  border-radius: 5px;
+  height: 1rem;
+  width: 1rem;
+}

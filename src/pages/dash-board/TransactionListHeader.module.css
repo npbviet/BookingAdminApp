@@ -1,0 +1,79 @@
+.header {
+  height: 45px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+}
+
+.header > div {
+  position: relative;
+}
+
+.header > div:nth-child(n + 2)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 33.3%; /* Bắt đầu từ 1/3 chiều cao */
+  height: 33.3%; /* Độ dài 1/3 chiều cao */
+  width: 2px; /* Độ dày của border */
+  background-color: #ddd; /* Màu của border */
+}
+.header div {
+  /* border-left: 1px solid #ddd; */
+  padding-left: 8px;
+  align-content: center;
+}
+
+.header div:last-child {
+  border-right: 1px solid #ddd;
+}
+.check-box {
+  width: 3%;
+  padding: 0px !important ;
+  text-align: center !important;
+  align-content: center !important;
+  border-left: 1px solid #ddd;
+}
+
+.check-box-head {
+  border-left: none;
+}
+
+.transID {
+  width: 18%;
+}
+
+.user-name {
+  width: 8%;
+}
+
+.hotel-name {
+  width: 20%;
+}
+
+.room-number {
+  width: 10%;
+}
+
+.booking-date {
+  width: 15%;
+}
+
+.total-amount {
+  width: 5%;
+}
+
+.payment-method {
+  width: 13%;
+}
+
+.booking-status {
+  width: 8%;
+}
+
+.booking-status-head {
+  border-right: none !important;
+}

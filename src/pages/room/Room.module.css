@@ -1,0 +1,40 @@
+/* =============================================== CSS MỚI =========================================== */
+.dash-board-container {
+  padding: 10px;
+  height: 100%;
+}
+
+.list-room {
+  height: 100%;
+  padding: 30px 20px 15px 20px;
+}
+
+.title-list-room {
+  font-size: 18px;
+  color: #887272;
+}
+
+/* ==================== CSS For List Hotel =================== */
+
+.head-list-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.new-room-btn {
+  border: 1px solid #1f8f1f;
+  color: #1f8f1f;
+  background-color: #fff;
+  padding: 3px 6px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.new-room-btn:hover {
+  background-color: #8984d3;
+  color: #fff;
+  font-weight: bold;
+  /* border: none; */
+  border-color: #8984d3;
+}

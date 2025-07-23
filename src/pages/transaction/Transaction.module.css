@@ -1,0 +1,40 @@
+/* =============================================== CSS MỚI =========================================== */
+.dash-board-container {
+  padding: 1rem 1.5rem;
+  height: fit-content;
+}
+
+.list-transaction {
+  height: fit-content;
+  margin-top: 3%;
+  box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.2); /* Bóng đổ cho popup */
+  padding: 30px 35px 15px 35px;
+}
+
+.title-list-trans {
+  font-size: 18px;
+  color: #887272;
+}
+
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 200px;
+  color: #0071c2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.no-transaction {
+  color: #f00;
+}
+
+.container-content > div:hover {
+  background-color: #87aaec;
+  color: #fff;
+}
+
+.container-content > div:last-child {
+  border-bottom: 1px solid #ddd;
+}

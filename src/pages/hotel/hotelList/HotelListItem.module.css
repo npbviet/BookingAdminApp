@@ -1,0 +1,78 @@
+.content {
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  width: inherit;
+  display: flex;
+}
+
+.content div {
+  padding-left: 8px;
+  align-content: center;
+  min-height: 40px;
+}
+.content:hover {
+  background-color: #87aaec;
+  color: #fff;
+}
+.check-box {
+  width: 4%;
+  padding: 0px !important;
+  text-align: center !important;
+  align-content: center !important;
+}
+
+.hotelID {
+  width: 19%;
+}
+
+.hotel-type {
+  width: 7%;
+}
+
+.hotel-name {
+  width: 23%;
+}
+
+.city {
+  width: 10%;
+}
+
+.hotel-title {
+  width: 23%;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14%;
+  padding: 0px 15px;
+}
+.delete-btn {
+  border: 1px dotted #f00;
+  border-radius: 5px;
+  padding: 3px 6px;
+  width: fit-content;
+}
+
+.delete-btn:hover {
+  background-color: #f00;
+  color: #ffff00;
+  font-weight: bold;
+}
+
+.edit-btn {
+  border: 1px dotted rgb(112, 134, 228);
+  outline: none;
+  border-radius: 5px;
+  padding: 3px 12px;
+  width: fit-content;
+  background-color: rgb(112, 134, 228);
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-btn:hover {
+  background-color: rgb(165, 125, 15);
+  font-weight: bold;
+}

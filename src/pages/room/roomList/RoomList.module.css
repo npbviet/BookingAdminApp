@@ -1,0 +1,24 @@
+.container-content > .content:hover {
+  background-color: #87aaec;
+  color: #fff;
+}
+.container-content > div:last-child {
+  border-bottom: none;
+}
+
+.container-content > div:first-child {
+  border-top: none;
+}
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 200px;
+  color: #0071c2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.no-room {
+  color: #f00;
+}

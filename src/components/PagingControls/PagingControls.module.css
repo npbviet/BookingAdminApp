@@ -1,0 +1,35 @@
+.paging-container {
+  padding: 10px;
+}
+
+.paging-control {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.previous-page {
+  margin: 0.25rem 1rem 0 2rem;
+}
+
+.previous-page:hover,
+.next-page:hover {
+  background-color: #0071c2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.next-page {
+  margin-top: 0.25rem;
+}
+
+.disable {
+  cursor: not-allowed;
+  color: #887272;
+}
+
+.previous-page.disable:hover,
+.next-page.disable:hover {
+  background-color: #fff;
+  color: #887272;
+  cursor: not-allowed;
+}

@@ -2,7 +2,6 @@
   "name": "blank-web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://npbviet.github.io/MovieApp/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,8 +12,17 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "date-fns": "^4.1.0",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
+    "react-date-range": "^2.0.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "react-youtube": "^10.1.0"

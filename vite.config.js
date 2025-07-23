@@ -9,5 +9,9 @@ export default defineConfig({
     outDir: "./build",
     emptyOutDir: true,
   },
-  base: "/MovieApp",
+  base: "/",
+  server: {
+    port: 3001, // Đặt cổng chạy ứng dụng
+    host: "localhost", // Cho phép truy cập nội bộ
+  },
 });

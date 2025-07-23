@@ -1,0 +1,23 @@
+.container-content > div:last-child {
+  border-bottom: none;
+}
+
+.container-content > div:first-child {
+  border-top: none;
+}
+.container-content {
+  border: 1px solid #ddd;
+}
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 200px;
+  color: #0071c2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.no-hotel {
+  color: #f00;
+}

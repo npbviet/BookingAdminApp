@@ -1,0 +1,91 @@
+.content {
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  width: inherit;
+  height: 40px;
+  display: flex;
+}
+
+.content div {
+  /* border-left: 1px solid #ddd; */
+  padding-left: 8px;
+  align-content: center;
+}
+
+.content div:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.content div {
+  min-height: 30px;
+}
+
+.check-box {
+  width: 3%;
+  padding: 0px !important ;
+  text-align: center !important;
+  align-content: center !important;
+  border-left: 1px solid #ddd;
+}
+
+.check-box-head {
+  border-left: none;
+}
+
+.transID {
+  width: 18%;
+}
+
+.user-name {
+  width: 8%;
+}
+
+.hotel-name {
+  width: 20%;
+}
+
+.room-number {
+  width: 10%;
+}
+
+.booking-date {
+  width: 15%;
+}
+
+.total-amount {
+  width: 5%;
+}
+
+.payment-method {
+  width: 13%;
+}
+
+.booking-status {
+  width: 8%;
+}
+/* Style này dùng chung cho phần status của booking cho "Booked" */
+.status-style {
+  display: block;
+  border-radius: 10%;
+  width: fit-content;
+  text-align: center;
+  align-content: center;
+  padding: 5px;
+}
+
+/* Style này dùng cho "Booked" */
+.Booking {
+  background-color: #f69685;
+}
+
+.Booked {
+  background-color: #f69685;
+}
+
+.Checkin {
+  background-color: #39d139;
+}
+
+.Checkout {
+  background-color: #d3d0f2;
+}

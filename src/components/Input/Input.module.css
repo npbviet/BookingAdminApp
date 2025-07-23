@@ -1,0 +1,25 @@
+.flex-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.input-item {
+  margin-bottom: 25px;
+}
+
+.input-item label {
+  font-size: 13px;
+}
+
+.input-item > input {
+  font-size: 12px;
+  padding: 8px 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #8f7e7e;
+}
+
+.input-item > input:focus {
+  outline: none;
+}
