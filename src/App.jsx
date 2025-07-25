@@ -29,7 +29,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 
 library.add(fab, fas, far);
-const route = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/admin/login",
     element: <Login />,
