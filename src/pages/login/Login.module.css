@@ -40,6 +40,7 @@
 
 .authForm button:hover {
   background-color: rgb(2, 128, 2);
+  cursor: pointer;
 }
 
 .authForm button:active {

@@ -23,6 +23,8 @@ import {
 } from "./util/auth/loader";
 import { protectRouterLoader } from "./util/protect/routeGuard";
 
+import "./index.css";
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
